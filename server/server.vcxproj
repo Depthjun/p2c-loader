@@ -52,11 +52,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\shared\crypto\crypto.cpp" />
+    <ClCompile Include="enc.cpp" />
+    <ClCompile Include="interaction.cpp" />
+    <ClCompile Include="random.cpp" />
     <ClCompile Include="server.cpp" />
+    <ClCompile Include="user_handler.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\shared\crypto\crypto.h" />
-    <ClInclude Include="server.h" />
+    <ClInclude Include="includes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

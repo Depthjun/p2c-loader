@@ -18,8 +18,8 @@ C++ base for p2c loaders. As of now, only includes user authentication and few f
 
 ### setup
 1. extract shared.rar
-2. setup main values (on beginning of client.cpp and server.cpp)
-3. add your application code on the end of client.cpp
+2. setup IP, port and version in includes.h (client) and includes.h (server)
+3. add your application code in program.cpp
 4. you may add another communication and stuff, well at this point you are good to go
 
 ### disclaimer
@@ -30,5 +30,6 @@ This was created as a fun project when I was bored over christmas, some code may
 - https://github.com/weidai11/cryptopp for encryption
 
 ### updates
+- 03/02/2021 code cleanup, added possibility for a little request delay, server crashing fixed
 - 01/01/2021 added hwid resetting, fixed usage of client's IP, fixed bulk license creation
 - 01/01/2021 initial commit

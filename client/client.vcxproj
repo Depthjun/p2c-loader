@@ -54,9 +54,14 @@
   <ItemGroup>
     <ClCompile Include="..\shared\crypto\crypto.cpp" />
     <ClCompile Include="client.cpp" />
+    <ClCompile Include="enc.cpp" />
+    <ClCompile Include="hwid.cpp" />
+    <ClCompile Include="program.cpp" />
+    <ClCompile Include="random.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\shared\crypto\crypto.h" />
+    <ClInclude Include="includes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
